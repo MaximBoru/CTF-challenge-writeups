@@ -1,4 +1,9 @@
-#MB
+"""
+Using a file that contains the entire English dictionary, Place the file in the same folder as your Python script.  
+You will then need to create a script that counts how many words are in the dictionary that contain any consecutive 3-letter sequence in your firstname+lastname 
+
+You are to ask the user for their full name (no spaces) and save that in the variable
+"""
 
 file = open('words.txt','r')
 wordList = []
